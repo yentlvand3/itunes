@@ -1,34 +1,64 @@
-h1 {
-    color: red;
+body {
+    background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+    background-image: -webkit-linear-gradient(top, #EBE7E7, #403D3D);
+    background-image: -moz-linear-gradient(top, #EBE7E7, #403D3D);
+    background-image: linear-gradient(to bottom, #EBE7E7, #403D3D);
+}
+.quote
+{
+    color: black;
     font-weight: bold;
-    font-size: 50px;
+    text-align: center;
+    margin-bottom:  30px;
+}
+p {
+    color: white;
 }
 
+h1 {
+    color: #D11F28;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
 h2 {
-    color: red;
+    color: #D11F28;
     font-size: 20px;
 }
 
+.img-fluid {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ 
+}
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575px) { 
+
+.btn {
+    margin-bottom: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    align-content: center;
+}
+.fa {
+    size: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
     
-    
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: #D11F28;
+}
+
+#accordion {
+    margin-bottom: 20px;
+}
+ .card {
+    background-color: lightgray;
  }
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767px) { 
-    
-}
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991px) { 
-    h2 {
-    color: blue; }
-}
-    
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199px) { ... }
-
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
